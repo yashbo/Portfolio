@@ -10,6 +10,8 @@ import {
   SiMysql,
   SiGithub,
   SiExpress,
+  SiPython,
+  SiCodingninjas,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -71,5 +73,15 @@ export const TechstackList = [
     _id: 12,
     name: "Git / Github ",
     icon: SiGithub,
+  },
+  {
+    _id: 13,
+    name: "C++ ",
+    icon: SiCodingninjas,
+  },
+  {
+    _id: 14,
+    name: "Python ",
+    icon: SiPython,
   },
 ];
